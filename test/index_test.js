@@ -25,7 +25,7 @@ describe('Your HTML Page', function() {
     assert.notEqual(window.$('title').text(), '', 'Make sure to set the content of the `title` element to your Code School username.');
   });
 
-  it('should have a h1 element @h1', function() {
+  it('should have an h1 element @h1', function() {
     assert.isAtLeast(window.$('h1').length, 1, "Make sure to create an `h1` element.");
   });
 
